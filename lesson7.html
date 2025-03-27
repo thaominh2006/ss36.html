@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lesson7.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box" id="regester">
+            <h2>Dang ky</h2>
+            <input type="text" id="name" placeholder="Nhap ten">
+            <input type="password" id="pass" placeholder="Mat khau">
+            <button onclick="displayRegister()">Dang Ky</button>
+            <a href="#" onclick="displayShowLogin()">Quay lai trang dang nhap</a>
+        </div>
+        <div class="form-box" id="loginForm" style="display: none;">
+            <h2>Danh nhap</h2>
+            <input type="text" id="username" placeholder="Ten dang nhap">
+            <input type="password" id="userPass" placeholder="Mat khau dang nhap">
+            <label>
+                <input type="checkbox" id="rememberMe">Ghi nho
+            </label>
+            <button onclick="displayLogin()">Dang nhap</button>
+            <a href="#" onclick="displayShowRegister()">Chua co tai khoan? Dang ky ngay thoi!</a>
+        </div>
+        <div class="welcome" id="welcome">
+            <h2 id="welcome-mess"></h2>
+            <button onclick="displayLogout()">Dang xuat</button>
+        </div>
+    </div>
+    <script src="./lesson7.js"></script>
+</body>
+</html>

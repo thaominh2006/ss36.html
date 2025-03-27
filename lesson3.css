@@ -1,0 +1,25 @@
+div{
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.box-red{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+.box-blue{
+    background-color: skyblue;
+    border-radius: 5px;
+    color: white;
+}
+.box-yellow{
+    background-color: yellow;
+    border-radius: 5px;
+}
+.box-purple{
+    background-color: palevioletred;
+    border-radius: 5px;
+    color: white;
+}

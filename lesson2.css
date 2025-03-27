@@ -1,0 +1,103 @@
+body{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#container #beef-noodle{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+#container #beef-noodle th img {
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+#container #beef-noodle th h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    /* margin-left: 40px; */
+    margin: 0;
+}
+#container #beef-noodle th i{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#container #beef-noodle th button {
+    background-color: #28A745;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#container #beef-noodleHanoi{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#container #beef-noodleHanoi th img {
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+#container #beef-noodleHanoi th h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    /* margin-left: 40px; */
+    margin: 0;
+}
+#container #beef-noodleHanoi th i{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#container #beef-noodleHanoi th button{
+    background-color: #28A745;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#container #rice{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#container #rice th img {
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+#container #rice th h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    /* margin-left: 40px; */
+    margin: 0;
+}
+#container #rice th i{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#container #rice th button{
+    background-color: #28A745;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
